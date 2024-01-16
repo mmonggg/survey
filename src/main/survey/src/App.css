@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .App-logo {
@@ -36,3 +40,59 @@
     transform: rotate(360deg);
   }
 }
+
+.pLeft {
+  text-align: left;
+}
+
+.pCenter {
+  text-align: center;
+}
+
+.content {
+  width: 80%;
+}
+
+.agree {
+  border: 1px solid gray;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.agreeCheck {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.agreeCheckBox {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.comments {
+  font-size: 13px;
+  margin: 7px 0px;
+}
+
+.close {
+  background: midnightblue;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid gray; /* 테이블 셀의 테두리 스타일 설정 */
+  padding: 10px; /* 셀 안의 여백 설정 */
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
+}
+
+th {
+  background-color: lightgray; /* 헤더 배경색 설정 */
+}
+
