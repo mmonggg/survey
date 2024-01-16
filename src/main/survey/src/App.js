@@ -1,19 +1,9 @@
-import './App.css';
-import axios from "axios";
+// import User from "./survey/User";
+// import Manager from "./survey/Manager";
 
-function App() {
-  const selectData = () => {
-    axios.post('/testData', ['a', 'b'])
-        .then((res) => console.log(res));
-  }
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <button onClick={() => selectData()}>조회입니다</button>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    // return <User />
+    // return <Manager />
+};
 
 export default App;
